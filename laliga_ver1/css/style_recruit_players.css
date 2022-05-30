@@ -1,0 +1,69 @@
+
+
+.cls-search-player {
+  display: flex;
+  justify-content: center;
+}
+
+.search-container {
+  padding: 12px;
+}
+
+.btnRpSearch {
+  border: none;
+}
+
+.cls-display-container {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  margin: 8px;
+}
+
+
+.cls-card-profile {
+
+  padding: 14px;
+  margin: 10px;
+  border-radius: .5em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+
+video {
+  height: 250px;
+  width: 260px;
+}
+
+.view-img-profile {
+   border-radius: 50%;
+   width:70px;
+   border: 3px solid green;
+   padding: 4px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .cls-display-container {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+    margin: 10px;
+    display: block;
+  }
+
+  .cls-card-profile {
+    padding: 14px;
+    margin: 10px;
+    border-radius: .5em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+
+  video {
+    height: 100%;
+    width: 100%;
+  }
+}
