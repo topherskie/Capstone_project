@@ -1,0 +1,2 @@
+this folder FONTS is for FPDF FILE LIB 
+GENERATING A RECEIPT
